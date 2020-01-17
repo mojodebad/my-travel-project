@@ -6,3 +6,7 @@ router.put("updatedata",controller.updateData(req,res));
 router.get("deletedata/:id",controller.deleteData(req,res));
 router.get("gettdata/:id",controller.getOne(req,res));
 router.get("gettdata",controller.getData(req,res));
+router.get("",(req,res)=>{
+    res.r
+})
+module.exports=router;
