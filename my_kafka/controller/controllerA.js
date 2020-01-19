@@ -40,6 +40,7 @@ const updateData=(req,res)=>{
         res.status(400).send("please send it in a proper form");
     }
 }
+
 module.exports={
     deleteData:deleteData,
     updateData:updateData,
